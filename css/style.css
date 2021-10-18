@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Candal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@500&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.body{
+  background-image: url();
+  background-repeat: no-repeat;
+  background-color: black;
+  background-size: cover;
+  height: 100vh;
+}
+
+.logo{
+  font-size: 60px;
+  padding: 30px 0 0 40px;
+  color: #FF6B6B;
+  font-family: 'Red Rose', cursive;
+  font-weight: 500;
+  font-style: bold;
+  top: 0px;
+  display: inline-block;
+  position: absolute;
+}
+
+.element{
+  font-family: 'Mukta', sans-serif;
+  color: #faff00;
+  font-size: 37px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.settingis{
+  position: absolute;
+  right: 25px;
+  top: 25px;
+}
+.settingis button{
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.settingis > .moon{
+  display: none;
+}
+.settingis > .moon > i{
+  color: #000;
+}
+
+.settingis > button > i{
+  color: #fff;
+  font-size: 25px;
+}
+
+.text{
+  text-align: center;
+  min-height: 70vh;
+ display:flex ;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+.text > .element{
+  height: 50px;
+}
+.text > h1{
+  font-family: 'Mukta', sans-serif;
+  color: #fff;
+  font-size: 55px;
+  line-height: 55px;
+  font-weight: 800;
+  font-style: bold;
+}
+
+body > .bottom-menu{
+  display: flex;
+  border-top: 1px solid #333335;
+  height: 70px;
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  position: absolute;
+}
+
+.bottom-menu > a{
+  color: #F0A500;
+  text-decoration: none;
+  margin: 5px 25px;
+  font-family: 'Mukta', sans-serif;
+  font-weight: 800;
+  font-style: bold;
+  font-size: 23px;
+}
+
+.bottom-menu > .manzil{
+  right: 20px;
+  position: absolute;
+}
+
+.bottom-menu > .manzil > a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 21px;
+  margin-right: 15px;
+}
+
+
+
+
+/* ABOUT */
+
+body{
+  background-color: black;
+}
+
+.aboutsc{
+  overflow: hidden;
+}
+
+.about{
+  max-width: 760px;
+  padding: 0 70px;
+  height: 80vh;
+  margin: 0 auto;
+  overflow-y: scroll;
+  border-radius: 10px;
+  overflow-x: hidden;
+  margin-top: 100px;
+}
+
+.about .texts{
+  margin-left: 15px;
+}
+
+.about .texts p{
+  color: #fff;
+  font-family: 'Mukta', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.about::-webkit-scrollbar {
+  width: 4px;
+  border-radius: 3px;
+  background: transparent;
+}
+
+/* Track */
+.about::-webkit-scrollbar-track {
+  /* background: #3a3939;  */
+  border-radius: 10px;
+  box-shadow: none;
+}
+ 
+/* Handle */
+.about::-webkit-scrollbar-thumb {
+  background-color: rgb(185, 185, 185);
+ border-radius: 3px;
+}
+
+/* Handle on hover */
+.about::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.about  h2{
+  margin-left: 20px;
+  color: #ffc83d;
+  font-size: 35px;
+  text-transform: uppercase;
+  font-family: 'Varela Round', sans-serif;
+}
+.about .sikll .box{
+   display: inline-block;
+}
+.about .sikll{
+  margin-left: 15px;
+}
+.about .sikll .box{
+  width: 137px;
+  height: 53px;
+  color:  #fff;
+  padding: 10px;
+  border: 1px solid rgb(185, 185, 185);
+  border-radius: 5px;
+  margin-right: 15px;
+  margin-bottom: 13px;
+  font-size: 19px;
+  display: inline-flex;
+  align-items: center;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.about .sikll .box img{
+  margin-left: 8px;
+}
+.hobbi{
+  margin-left: 10px;
+}
+
+.hobbi .card{
+  display: inline-flex;
+  flex-direction: column;
+  width: 230px;
+  height: 143px;
+  background-color: #3d3d3d;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 10px;
+  color: #fff;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.hobbi .card i{
+  margin-bottom: 15px;
+  color: #f1c311;
+  font-size: 35px;
+}
+
+/* PROJECT */
+
+.project .h1{
+  color: #F0A500 ;
+  font-family: 'Varela Round', sans-serif;
+  text-align: center;
+  margin-top: 155px;
+}
+
+
+/* contact */
+
+.wrapper{
+  background-image: url("/img/bg.jpg");
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  padding-top: 150px;
+}
+
+
+.wrapper > .contact{
+  width: 50%;
+  max-width: 900px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 0 auto 0 auto;
+  border-radius: 10px;
+  display: flex;
+  padding: 10px;
+  font-family: "Varela Round", sans-serif;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.contact > .left{
+  color: #fff;
+  height: 40vh;
+  width: 50%;
+  font-size: 17px;
+  padding-left: 25px;
+}
+
+.contact > .left > i{
+  font-size: 21px;
+  margin-right: 9px;
+  color: #fdd73e;
+}
+
+.contact > .right{
+  color: #fff;
+  height: 40vh;
+  width: 50%;
+  font-size: 17px;
+  padding-left: 25px;
+}
+.contact > .right > input, .contact > .right > textarea{
+  width: calc(100% - 42px);
+  border: none;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  background: none;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  transition: 0.25s ease;
+  font-size: 16px;
+  opacity: 0.7;
+  font-family: "Varela Round", sans-serif;
+}
+
+.contact > .right > textarea{
+  width: calc(100% - 42px);
+  background: none;
+  resize: none;
+  height: 100px;
+}
+
+.contact > .right > .btn{
+  border: none;
+  padding: 10px 20px;
+  background: none;
+  color: #dfa937;
+  border: 1px solid #dfa937;
+  border-radius: 5px;
+  transition: 0.25s ease;
+  font-size: 15px;
+  cursor: pointer;
+  width: calc(100% - 42px);
+  font-family: "Varela Round", sans-serif;
+}
+
+.contact > .right > .btn:hover{
+  box-shadow: 3px 0px 27px 1px rgba(223, 169, 55, 0.2);
+}
+
+.wrapper > .manzil {
+  position: absolute;
+  right: 15px;
+  bottom: 25px;
+}
+
+.wrapper >  .manzil > a{
+  color:#fff;
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 9px;
+}
+
+/* media  */
+
+@media (max-width: 760px){
+  .logo{
+    font-size: 30px;
+    padding: 20px 0 0 20px;
+  }
+  .text{
+    text-align: center;
+    min-height: 70vh;
+    display:flex ;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+  }
+  .text > .element{
+    height: 50px;
+  }
+  .text > h1{
+    font-size: 42px;
+    line-height: 50px;
+  }
+  .element{
+    color: #faff00;
+    font-size: 23px;
+    line-height: 36px;
+  }
+  .bottom-menu > .manzil{
+    position: absolute;
+    margin-top: -100px;
+    width: 150px;
+    right: 1px;
+  }
+  .bottom-menu > .manzil > a{
+    font-size: 18px;
+    margin-right: 13px;
+  }
+  .bottom-menu > a{
+    margin: 5px 20px;
+    font-size: 18px;
+  }
+
+  /* project */
+  .project .h1{
+    color: #F0A500 ;
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 145px;
+  }
+
+  /* contact */
+
+  .wrapper{
+   overflow: initial;
+    width: 100%;
+    height: 100%;
+    padding-top: 0px;
+  }
+  .wrapper > .contact{
+    width: 100%;
+    padding-top: 90px;
+    padding-bottom: 70px;
+    height: 100%;
+    display: block;
+  }
+  
+  .contact > .left{
+    height: 40vh;
+    width: 100%;
+  }
+  
+  .contact > .right{
+    height: 40vh;
+    width: 100%;
+    margin-bottom: 80px;
+  }
+  .wrapper > .manzil {
+    position: relative;
+    bottom: 25px;
+    margin-left: 23px;
+  }
+  
+  .wrapper >  .manzil > a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 9px;
+  }
+
+  /* About */
+
+  .about{
+    max-width: 760px;
+    padding: 0 30px;
+    margin: 0 auto;
+    overflow-y: scroll;
+    border-radius: 10px;
+    overflow-x: hidden;
+    margin-top: 100px;
+  }
+  
+  .about .texts{
+    margin-left: 15px;
+  }
+  
+  .about .texts p{
+    font-size: 18px;
+  }
+ 
+  .about  h2{
+    font-size: 25px;
+  }
+  .about .sikll{
+    margin-left: 5px;
+  }
+  .about .sikll .box{
+    width: 120px;
+    height: 53px;
+    padding: 7px;
+    margin-bottom: 13px;
+    font-size: 17px;
+  }
+  
+  .about .sikll .box img{
+    margin-left: 5px;
+  }
+  .hobbi{
+    margin-left: 5px;
+  }
+  
+  .hobbi .card{
+    display: inline-flex;
+    flex-direction: column;
+    width: 220px;
+    height: 140px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+}
